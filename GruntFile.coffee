@@ -75,8 +75,8 @@ module.exports = (grunt) ->
         overwrite: true
         replacements: [
           from: /^/
-          to: ->
-            "/* backbone.viewmodel.js v#{ packageVersion() } (coffeescript output) */ \n\n"
+          to: -> "/* backbone.viewmodel.js v#{ packageVersion() }" +
+            " (coffeescript output) */ \n\n"
         ]
 
       minJS:
