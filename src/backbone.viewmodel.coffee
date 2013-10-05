@@ -1,5 +1,3 @@
-# Queue - - - - - - - - - - - - - - - - - - - - - - - - - -
-
 class Backbone.ViewModel extends Backbone.View
   constructor: ->
     @state = new Backbone.Model
