@@ -1,3 +1,5 @@
+Backbone = @Backbone or typeof require is 'function' and require 'backbone'
+
 class Backbone.ViewModel extends Backbone.View
   constructor: ->
     @state = new Backbone.Model
